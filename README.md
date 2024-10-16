@@ -40,14 +40,16 @@ You can find Enterprise Browser basic setup info [here](https://techdocs.zebra.c
 
 ### If you wanna know more...
 
-- Register DataWedge Intents in Enterprise Browser (one intent per each profile so that we can distinguish this)
-  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/main/Config.xml#L148-L158
+- Register DataWedge Intents in Enterprise Browser (one intent per each profile so that we can distinguish this):
+  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/b4ba031daca680cc8bf98b3ec39e0fa19280661e/Config.xml#L148-L158
+- Download DataWedge profile:
+  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/b4ba031daca680cc8bf98b3ec39e0fa19280661e/ocr-wedge-interface.js#L13-L38
 - Register broadcast receiver:
-  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/main/ocr-wedge-interface.js#L115-L118
+  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/b4ba031daca680cc8bf98b3ec39e0fa19280661e/ocr-wedge-interface.js#L115-L118
 - Switch between profiles:
-  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/main/ocr-wedge-interface.js#L120-L137
+  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/b4ba031daca680cc8bf98b3ec39e0fa19280661e/ocr-wedge-interface.js#L120-L137
 - Parse captured data:
-  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/main/ocr-wedge-interface.js#L73-L113
+  https://github.com/spoZebra/zebra-eb-ocr-wedge/blob/b4ba031daca680cc8bf98b3ec39e0fa19280661e/ocr-wedge-interface.js#L73-L113
 
 
 

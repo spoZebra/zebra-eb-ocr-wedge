@@ -69,6 +69,9 @@ function captureTIN(){
 function captureId(){
     switchToProfile("id")
 }
+function captureMeter(){
+    switchToProfile("meter")
+}
 
 function dwBroadcastReceiver(myIntentData) 
 {
@@ -97,6 +100,11 @@ function dwBroadcastReceiver(myIntentData)
             case "com.symbol.dwtin.action":
                 ouptutDiv = document.getElementById("tin_output");
                 console.log("TIN (Tyre Identification Number): " + data);
+                break;
+
+            case "com.symbol.dwmeter.action":
+                ouptutDiv = document.getElementById("meter_output");
+                console.log("Meter Value: " + data);
                 break;
 
             default:
@@ -132,7 +140,7 @@ function switchToProfile(profileName, sendTrigger = true){
 
         setTimeout(function(){
             startCapture()
-        },1000);  
+        },3000);  
     }
 }
 

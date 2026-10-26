@@ -152,6 +152,7 @@ EnterpriseBrowser_v0.16.10.18 Configuration file
         <IntentAction  value="com.symbol.dwlp.action"/>
         <IntentAction  value="com.symbol.dwvin.action"/>
         <IntentAction  value="com.symbol.dwtin.action"/>
+        <IntentAction  value="com.symbol.dwmeter.action"/>
         <IntentAction  value="com.symbol.datawedge.api.NOTIFICATION"/>
         <IntentAction  value="com.symbol.datawedge.api.RESULT_ACTION"/>
         <IntentCategory  value="android.intent.category.DEFAULT"/>
